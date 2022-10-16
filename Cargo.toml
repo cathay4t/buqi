@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "src/lib",
+    "src/cli",
+    "src/wayland",
+]

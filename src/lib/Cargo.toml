@@ -1,0 +1,19 @@
+[package]
+name = "buqi"
+version = "0.0.1"
+authors = ["Gris Ge <cnfourt@gmail.com>"]
+license = "Apache-2.0"
+edition = "2021"
+description = "Buffer Syncer"
+homepage = "https://github.com/cathay4t/buqi"
+repository = "https://github.com/cathay4t/buqi"
+keywords = ["network"]
+categories = ["network-programming", "os"]
+
+[lib]
+name = "buqi"
+path = "lib.rs"
+crate-type = ["lib"]
+
+[dependencies]
+tokio = { version = "1.18", features = ["net",]}
